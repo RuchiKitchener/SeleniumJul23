@@ -44,6 +44,10 @@ public class Tests {
 	new completePage(driver).clickBacktoProducts();
 	}
 	
+	@Test
+	public void test2() {
+		Assert.assertTrue(true);
+	}
 
 	@AfterMethod
 	public void Done() {
